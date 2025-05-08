@@ -1,4 +1,4 @@
-NAME = IdentifyRealType
+NAME = whatever
 
 SOURCE = main.cpp
 
