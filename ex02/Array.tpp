@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Array.hpp"
+#pragma once
 
 template<typename T>
 Array<T>::Array():a(new T[0]()),_size(0){};
