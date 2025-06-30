@@ -6,7 +6,7 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 16:21:40 by relamine          #+#    #+#             */
-/*   Updated: 2025/05/07 16:59:16 by relamine         ###   ########.fr       */
+/*   Updated: 2025/06/30 21:27:06 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,13 @@ void swap(t &a, t &b)
 }
 
 template <typename t>
-t min(t NumOne, t NumSecond)
+t min(const t &NumOne, const t &NumSecond)
 {
     return (NumOne < NumSecond ? NumOne : NumSecond);
 }
 
 template <typename t>
-t max(t NumOne, t NumSecond)
+t max(const t &NumOne, const t &NumSecond)
 {
     return (NumOne > NumSecond ? NumOne : NumSecond);
 }
