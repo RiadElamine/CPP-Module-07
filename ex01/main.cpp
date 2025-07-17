@@ -6,7 +6,7 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 17:11:19 by relamine          #+#    #+#             */
-/*   Updated: 2025/05/08 00:58:25 by relamine         ###   ########.fr       */
+/*   Updated: 2025/07/17 20:42:38 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ class IntClass
     
     public:
     T num;
-    IntClass(): num(98.1){}
+    IntClass(): num(98){}
     operator T() const
     {
         return num;

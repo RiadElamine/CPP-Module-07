@@ -6,11 +6,12 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 00:02:25 by relamine          #+#    #+#             */
-/*   Updated: 2025/05/12 06:05:43 by relamine         ###   ########.fr       */
+/*   Updated: 2025/07/17 20:51:55 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
+#include "Array.hpp"
 
 template<typename T>
 Array<T>::Array():a(new T[0]()),_size(0){};
@@ -23,7 +24,7 @@ Array<T>::Array(unsigned int n)
 };
 
 template<typename T>
-Array<T>::Array( const Array& array)
+Array<T>::Array(const Array& array)
 {
     _size = array._size;
     this->a = new T[_size]();

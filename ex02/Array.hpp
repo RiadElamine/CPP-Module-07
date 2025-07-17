@@ -6,7 +6,7 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/12 00:02:27 by relamine          #+#    #+#             */
-/*   Updated: 2025/05/12 05:58:50 by relamine         ###   ########.fr       */
+/*   Updated: 2025/07/17 20:46:09 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ class Array
     public:
         Array();
         Array(unsigned int n);
-        Array(const Array<T>& array);
+        Array(const Array& array);
         Array &operator=(const Array& array);
         ~Array();
 
